@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-color: #fafafa;
+}
+
+h1 {
+    margin: 50px auto 0px auto;
+    font-family: 'Kalam', cursive;
+    font-size: 562.5%;
+    color:  #66BFBF;
+}
+.subtitle {
+    font-family: 'Kalam', cursive;
+    font-size: 250%;
+    color:  #66BFBF;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color:  #66BFBF;
+    margin-top: 60px;
+    font-size: 250%;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+a {
+    color: #11999E;
+    text-decoration: none;
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #dfdfdf;
+    border-width: 8px;
+    width: 4%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.top-container {
+    background-color: #EAF6F6;
+    padding-top: 100px;
+    position: relative;
+}
+
+
+.bottom-container {
+    background-color: #66BFBF;
+    margin-top: 60px;
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.top-cloud {
+    position: absolute;
+    right: 700px;
+    top: 50px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 700px;
+    bottom: 300px;
+}
+.profile-pic {
+    margin-top: 60px;
+    width: 256px;
+}
+.profile-pic, .computer {
+    border-radius: 50%;
+}
+.computer {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.saxophone {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.sun {
+    width: 200px;
+    position: absolute;
+    left: 60%;
+    bottom: 75%;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 200px auto;
+    text-align: left;
+    line-height: 2;
+}
+.contact-me {
+    line-height: 2;
+}
+
+.butn {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+  background-image: linear-gradient(to bottom, #66BFBF, #11999E);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.contact-me p {
+    margin-bottom: 60px;
+}
+.profile p {
+    width: 30%;
+    margin: 60px auto 60px auto;
+}
+.bottom-container p {
+    margin-top: 50px;
+    color: #EAF6F6;
+}
+
+.bottom-container a {
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 18px;
+}
+
